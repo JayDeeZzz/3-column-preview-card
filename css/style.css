@@ -88,7 +88,16 @@ html, body{
  .attribution a{
      color: hsl(228, 45%, 44%);
 }
- @media only screen and (max-width: 420px){
+ @media only screen and (max-width: 768px){
+     .container{
+        max-width: 700px;
+        padding: 20px;
+    }
+    .sedans, .suvs, .luxury{
+     padding: 30px;
+}
+}
+ @media only screen and (max-width: 480px){
      #main,.container{
          display: block;
          padding: 10px;
